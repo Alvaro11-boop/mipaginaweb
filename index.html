@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 1 - fundamento de programacion, Html y Git </title>
+    <link rel="stylesheet" href="stilo.css">
 </head>
 <body>
 
         <h1>Mi hoja de vida</h1>
         <h2>Mis datos personales</h2>
-        <p>Nombre: Alvaro Luis</p>
-        <p>Apelliod: Garido Medina</p>
+        <p>Nombres: Alvaro Luis</p>
+        <p>Apellidos: Garido Medina</p>
         <p>Estudiante de Ingenieria de sisitemas</p>
         <h2>ACERCA DE MI</h2>
         <p>Soy esdiante de la facultad de ingenieria, en el prgorama de ingeniera de sistemas, acualmente me ecuentro cursando el 7 semestre en la Universidad de la Guajira</p>
@@ -51,5 +52,15 @@
     </tr>
 </tbody>
 </table>
+<h2>Formulario</h2>
+<form class="form">
+    <label for="form_label-name">Nombre:</label>
+    <input type="text" name="name" id="name" class="form_input-name">
+    <label for="phone" class="form_label-name">Telefono:</label>
+    <input type="number" name="phone" id="phone" class="form_input-phone">
+    <label for="email" class="form_label-email">email:</label>
+    <input type="email" name="email" id="email" class="form_label-email">
+    <input type="submit" value="enviar datos" id="submit">
+</form>
 </body>
 </html>
